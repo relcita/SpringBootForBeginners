@@ -18,4 +18,4 @@ on:
    -name: Unit Tests
    run: mvn -B test  --file pom.xml
 -name: Buld the applcaton 
- run:: mvn -B  package --fle pom.xml
+ run: mvn -B  package --fle pom.xml
