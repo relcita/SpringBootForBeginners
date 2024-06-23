@@ -4,7 +4,7 @@ on:
          branches:
             - main 
    jobs:
-   buld-deploy:
+   build-deploy:
    name: build and deploy sprng boot for begnnner
    runs-on: ubuntu-latest
    steps:
