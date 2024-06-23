@@ -6,7 +6,7 @@ on:
    jobs:
    buld-deploy:
    name: build and deploy sprng boot for begnnner
-   runs-on:ubuntu-latest
+   runs-on: ubuntu-latest
    steps:
    - name: Checout Code
    uses: actions/checout@v3
