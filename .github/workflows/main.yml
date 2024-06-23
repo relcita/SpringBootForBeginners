@@ -8,8 +8,8 @@ on:
    name: build and deploy sprng boot for begnnner
    runs-on: ubuntu-latest
    steps:
-   - name: Checout Code
-   uses: actions/checout@v3
+   - name: Checkout Code
+   uses: actions/checkout@v3
    - name: Setup JD 17
    uses: actions/setup-java@v3
    with: 
