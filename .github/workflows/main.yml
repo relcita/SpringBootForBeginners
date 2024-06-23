@@ -13,9 +13,9 @@ on:
    - name: Setup JD 17
    uses: actions/setup-java@v3
    with: 
-   distributon : 'corretto'
-   java-verson:17
+   distribution : 'corretto'
+   java-version:17
    -name: Unit Tests
-   run: mvn -B test  --fle pom.xml
+   run: mvn -B test  --file pom.xml
 -name: Buld the applcaton 
 mvn -B  package --fle pom.xml
