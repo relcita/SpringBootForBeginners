@@ -1,9 +1,8 @@
 name: Build & Deploy Spring app
 on: 
-
-   push: 
+    push: 
    branches:
-   - main 
+        - main 
    jobs:
    buld-deploy:
    name: build and deploy sprng boot for begnnner
