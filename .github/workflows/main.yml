@@ -1,7 +1,5 @@
 name: Build & Deploy Spring app
-on: 
-push: 
-     branches[ master ]
+on: [push , branches[ master]] 
 jobs: 
    build_deploy: 
    - name: build and deploy sprng boot for begnnner
