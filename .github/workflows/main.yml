@@ -1,5 +1,5 @@
 name: Build & Deploy Spring app
-uses: ./.github/actions/my_actons
+uses: relcita/SpringBootForBeginners/github/actions/my_actons
 on: [push, workflow_dispatch]
 jobs: 
    build_deploy: 
