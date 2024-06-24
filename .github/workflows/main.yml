@@ -2,7 +2,7 @@ name: Build & Deploy Spring app
 on: 
 push: 
      branches[ main ]
-   jobs: build_deploy:
+   jobs: build_deploy 
    - name: build and deploy sprng boot for begnnner
    runs-on: ubuntu-latest
    steps:
