@@ -1,4 +1,4 @@
-name: Build & Deploy Spring app
+name: main
 on: [push, workflow_dispatch]
 jobs: 
    build_deploy: 
