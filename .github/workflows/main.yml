@@ -1,5 +1,6 @@
 name: Build & Deploy Spring app
-on: [push,  ./.github/actions/workflow_dispatch]
+uses: ./.github/actions/my_actons
+on: [push, workflow_dispatch]
 jobs: 
    build_deploy: 
      runs-on: ubuntu-latest
