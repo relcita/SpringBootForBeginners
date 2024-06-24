@@ -3,7 +3,7 @@ on:
 push: 
      branches[master]
    jobs:
-   build-deploy:
+   build_deploy:
    - name: build and deploy sprng boot for begnnner
    runs-on: ubuntu-latest
    steps:
