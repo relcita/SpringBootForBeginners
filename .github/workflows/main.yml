@@ -1,14 +1,14 @@
 name: Build & Deploy Spring app
 on: 
 push: 
-     branches[master]
+     branches[ main]
    jobs:
    build_deploy:
    - name: build and deploy sprng boot for begnnner
    runs-on: ubuntu-latest
    steps:
  - name: Checkout Code
-   uses: actions/checkout@v3
+  - uses: actions/checkout@v3
    - name: Setup JD 17
    uses: actions/setup-java@v3
    with: 
