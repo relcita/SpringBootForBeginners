@@ -2,7 +2,6 @@ name: main
 on: [push, workflow_dispatch]
 jobs: 
    build_deploy: 
-   - name: build and deploy sprng boot for begnnner
      runs-on: ubuntu-latest
      steps:
     - name: Checkout Code
